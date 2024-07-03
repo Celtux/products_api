@@ -1,2 +1,10 @@
 //bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
+
+//global
+@import "global/breakpoints";
+@import "global/global";
+
+
+//blocks
+@import "blocks/main_block";

@@ -1,0 +1,76 @@
+//* {
+//  font-family: 'Nunito-Sans';
+//}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 400;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 120%;
+
+  @media screen and (min-width: $sm-min-screen) {
+    font-size: 64px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 110%;
+
+  @media screen and (min-width: $sm-min-screen) {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 120%;
+
+  @media screen and (min-width: $sm-min-screen) {
+    font-size: 38px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 120%;
+
+  @media screen and (min-width: $sm-min-screen) {
+    font-size: 28px;
+    line-height: 130%;
+  }
+}
+
+.container {
+  max-width: 1228px;
+  padding: 0 24px;
+
+  @media screen and (min-width: $tablet-screen) {
+    max-width: 1200px;
+    padding: 0 10px;
+  }
+}
+
+.large-container {
+  max-width: 1468px;
+  padding: 0 24px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $tablet-screen) {
+    max-width: 1440px;
+    padding: 0 10px;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}

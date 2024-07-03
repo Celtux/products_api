@@ -7,7 +7,7 @@ final class Init {
 	 * @var Helpers\BlockItem[]
 	 */
 	private static array $blocks = array(
-		General\Hero::class,
+		General\MainBlock::class,
 	);
 
 	public function __construct()

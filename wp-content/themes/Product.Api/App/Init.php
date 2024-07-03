@@ -24,6 +24,7 @@ final class init {
             Base\Deregister::class,
 			Acf\Blocks\Init::class,
             CustomPostType\RegisterCustomPostType::class,
+            Products\Products::class,
 		);
 	}
 
